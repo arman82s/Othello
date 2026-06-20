@@ -11,7 +11,7 @@ def play_game(agent_black, agent_white, size=6):
             # اطمینان از اینکه عامل حرکتی را برگردانده است
             if move is not None:
                 game.make_move(player, *move)
-        # تغییر نوبت (اگر بازیکن حرکتی نداشته باشد، نوبت پاس می‌شود)
+        # تغییر نوبت اگر بازیکن حرکتی نداشته باشد نوبت پاس می‌شود
         if player == BLACK:
             player = WHITE
         else:
