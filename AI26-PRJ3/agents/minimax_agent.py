@@ -25,7 +25,7 @@ class MinimaxAgent:
             elif my_score < opp_score: return -1000000
             else: return 0
 
-        # ۲. استخراج اطلاعات بازی
+        #  استخراج اطلاعات بازی
         my_moves = len(game.get_valid_moves(player))
         opp_moves = len(game.get_valid_moves(opponent))
         
